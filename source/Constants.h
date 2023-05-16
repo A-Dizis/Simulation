@@ -1,0 +1,6 @@
+#ifndef SOURCE_CONSTANTS_H_
+#define SOURCE_CONSTANTS_H_
+
+#define REAL_DIMENSIONS 3
+
+#endif

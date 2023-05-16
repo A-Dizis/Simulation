@@ -1,0 +1,3 @@
+C:\dev\tools\Cmake\bin\cmake.exe -E rm -f CMakeFiles\Simulation.dir/objects.a
+C:\dev\tools\mingw64\bin\ar.exe qc CMakeFiles\Simulation.dir/objects.a @CMakeFiles\Simulation.dir\objects1.rsp
+C:\dev\tools\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\Simulation.dir/objects.a -Wl,--no-whole-archive -o Simulation.exe -Wl,--out-implib,libSimulation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Simulation.dir\linkLibs.rsp
