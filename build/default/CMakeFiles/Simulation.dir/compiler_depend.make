@@ -6,7 +6,6 @@ CMakeFiles/Simulation.dir/source/start.cpp.obj: C:/Users/dizisa/Desktop/C_passti
   C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/dev/tools/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/ostream \
   C:/dev/tools/mingw64/include/c++/12.2.0/ios \
   C:/dev/tools/mingw64/include/c++/12.2.0/iosfwd \
@@ -107,9 +106,6 @@ CMakeFiles/Simulation.dir/source/start.cpp.obj: C:/Users/dizisa/Desktop/C_passti
   C:/dev/tools/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_construct.h \
-  C:/dev/tools/mingw64/include/c++/12.2.0/string_view \
-  C:/dev/tools/mingw64/include/c++/12.2.0/bits/functional_hash.h \
-  C:/dev/tools/mingw64/include/c++/12.2.0/bits/string_view.tcc \
   C:/dev/tools/mingw64/include/c++/12.2.0/ext/string_conversions.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/cstdlib \
   C:/dev/tools/mingw64/x86_64-w64-mingw32/include/stdlib.h \
@@ -121,6 +117,7 @@ CMakeFiles/Simulation.dir/source/start.cpp.obj: C:/Users/dizisa/Desktop/C_passti
   C:/dev/tools/mingw64/include/c++/12.2.0/cstdio \
   C:/dev/tools/mingw64/include/c++/12.2.0/cerrno \
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/functional_hash.h \
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/locale_classes.tcc \
   C:/dev/tools/mingw64/include/c++/12.2.0/system_error \
@@ -142,16 +139,30 @@ CMakeFiles/Simulation.dir/source/start.cpp.obj: C:/Users/dizisa/Desktop/C_passti
   C:/dev/tools/mingw64/include/c++/12.2.0/bits/istream.tcc \
   C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Particle.cpp \
   C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Particle.h \
-  C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Constants.h
+  C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Constants.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/random \
+  C:/dev/tools/mingw64/include/c++/12.2.0/cmath \
+  C:/dev/tools/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/limits \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/random.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/vector \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/vector.tcc \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/random.tcc \
+  C:/dev/tools/mingw64/include/c++/12.2.0/numeric \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/chrono \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/chrono.h \
+  C:/dev/tools/mingw64/include/c++/12.2.0/ratio \
+  C:/dev/tools/mingw64/include/c++/12.2.0/ctime \
+  C:/dev/tools/mingw64/include/c++/12.2.0/bits/parse_numbers.h
 
 
 C:/Users/dizisa/Desktop/C_passtime/Simulation/source/start.cpp:
-
-C:/dev/tools/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
-
-C:/dev/tools/mingw64/include/c++/12.2.0/pstl/pstl_config.h:
-
-C:/dev/tools/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
@@ -209,6 +220,12 @@ C:/dev/tools/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/dev/tools/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
+C:/dev/tools/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_numeric.h:
+
+C:/dev/tools/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/nested_exception.h:
 
 C:/dev/tools/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
@@ -241,6 +258,8 @@ C:/dev/tools/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
 C:/dev/tools/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
 C:/dev/tools/mingw64/include/c++/12.2.0/typeinfo:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/hash_bytes.h:
@@ -257,7 +276,7 @@ C:/dev/tools/mingw64/include/c++/12.2.0/bits/localefwd.h:
 
 C:/dev/tools/mingw64/x86_64-w64-mingw32/include/stdint.h:
 
-C:/dev/tools/mingw64/include/c++/12.2.0/bits/string_view.tcc:
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_vector.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
@@ -306,8 +325,6 @@ C:/dev/tools/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
 C:/dev/tools/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/locale_classes.h:
-
-C:/dev/tools/mingw64/include/c++/12.2.0/string_view:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/string:
 
@@ -373,13 +390,13 @@ C:/dev/tools/mingw64/include/c++/12.2.0/bits/alloc_traits.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_construct.h:
 
-C:/dev/tools/mingw64/include/c++/12.2.0/bits/functional_hash.h:
-
 C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/ext/string_conversions.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/cstdlib:
+
+C:/dev/tools/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/stdlib.h:
 
@@ -396,6 +413,8 @@ C:/dev/tools/mingw64/include/c++/12.2.0/cstdio:
 C:/dev/tools/mingw64/include/c++/12.2.0/cerrno:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/charconv.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/functional_hash.h:
 
 C:/dev/tools/mingw64/include/c++/12.2.0/bits/locale_classes.tcc:
 
@@ -428,3 +447,35 @@ C:/dev/tools/mingw64/include/c++/12.2.0/istream:
 C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Particle.cpp:
 
 C:/Users/dizisa/Desktop/C_passtime/Simulation/source/Constants.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/vector:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/random:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/cmath:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/limits:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/random.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/stl_bvector.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/vector.tcc:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/random.tcc:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/numeric:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/chrono:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/chrono.h:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/ratio:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/ctime:
+
+C:/dev/tools/mingw64/include/c++/12.2.0/bits/parse_numbers.h:

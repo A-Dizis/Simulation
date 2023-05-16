@@ -25,6 +25,7 @@ public:
 	const double* getV() const;
 	void add(Particle p);
 	int getNo();
+	void move(double time);
 };
 
 

@@ -6,15 +6,22 @@
  */
 
 #include "Particle.h"
-#include<iostream>
+#include <iostream>
+#include <random>
+#include <chrono>
 #include<cstdlib>
 
+int Particle::counter = 0;
 
+unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+std::default_random_engine generator(seed);
+const double k_T = 0.1;
+std::gamma_distribution<double> maxwell(3./2., k_T);
 
 Particle::Particle() {
 	for (int i = 0; i < REAL_DIMENSIONS; ++i) {
-		r[i] = (double)(rand()%1000);
-		v[i] = (double)(rand()%1000);
+		r[i] = (double)(rand()/(double)RAND_MAX);
+		v[i] = maxwell(generator);
 	}
 
 	Particle::counter++;
@@ -51,5 +58,8 @@ std::ostream &operator<<(std::ostream & os, const Particle & p)
     return os;
 }
 
-int Particle::counter = 0;
-
+void Particle::move(double time) {
+	for(int i = 0; i < REAL_DIMENSIONS; ++i) {
+		r[i] += v[i]*time;
+	}
+}

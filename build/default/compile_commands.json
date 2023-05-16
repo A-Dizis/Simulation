@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/dizisa/Desktop/C_passtime/Simulation/build/default",
-  "command": "C:\\dev\\tools\\mingw64\\bin\\c++.exe    -o CMakeFiles\\Simulation.dir\\source\\start.cpp.obj -c C:\\Users\\dizisa\\Desktop\\C_passtime\\Simulation\\source\\start.cpp",
+  "command": "C:\\dev\\tools\\mingw64\\bin\\c++.exe   -std=gnu++11 -o CMakeFiles\\Simulation.dir\\source\\start.cpp.obj -c C:\\Users\\dizisa\\Desktop\\C_passtime\\Simulation\\source\\start.cpp",
   "file": "C:/Users/dizisa/Desktop/C_passtime/Simulation/source/start.cpp",
   "output": "CMakeFiles/Simulation.dir/source/start.cpp.obj"
 }
